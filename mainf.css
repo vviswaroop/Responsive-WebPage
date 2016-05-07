@@ -1,0 +1,151 @@
+<style>
+*{
+    background-color: bisque;}
+   [class*="col-"]{
+    float:left;
+    padding:10px;
+    width: 100%;
+       border-style: inherit;
+        }
+.title li:after{
+        content: "";
+        clear: both;
+        display: block;
+        }
+.header{
+       background-image:url('http://wall.wallrage.com/wp-content/uploads/Ultra-HD-4k-Wallpaper-Designs.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    height: 250px;
+    width: 100%;
+    position: inherit;
+    top: 0;
+    background-color: rgba(5, 0, 5, 0.4);
+    padding-top: 2%;
+    color: azure;
+    font-size: 1.2em;
+        }
+.n,.f,.description{display: none;}
+.menu{display: block;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: .7%;
+    color:white;
+    font-size: .9em;}
+.menu a {font-family: fantasy;
+    color: white;
+    text-decoration: none;}
+.menu a:hover {color: white;}
+
+.title h1, h3{
+        display: inline;
+        color: blue;
+        letter-spacing: 1.2px;
+        font-family: cursive;
+        }
+     .pic{
+        float:left;
+      width: 100%;
+    height: auto;
+       
+  } 
+        }
+    
+    .title {
+        border-style: none;
+        margin-bottom: 0%;
+        margin-top: auto;}
+    .title ul{
+        list-style-type: none;}  
+    .title li{
+    text-align: justify;
+    margin-bottom:2px;
+    color: blue;
+    }
+footer {
+            color: darkblue;
+            font-family: cursive;
+            font-size: 15px;
+            font-style: italic;
+            padding: inherit;
+            text-align: left;
+            background-color: antiquewhite;
+            border-bottom: -3%;
+            }
+@media only screen and (min-width: 768px){ 
+[class*="col-"] {
+     padding: 1%;}
+.col-t-1 {width: 8.33%;}
+.col-t-2 {width: 16.66%;}
+.col-t-3 {width: 25%;}
+.col-t-4 {width: 33.33%;}
+.col-t-5 {width: 41.66%;}
+.col-t-6 {width: 50%;}
+.col-t-7 {width: 58.33%;}
+.col-t-8 {width: 66.66%;}
+.col-t-9 {width: 75%;}
+.col-t-10 {width: 83.33%;}
+.col-t-11 {width: 91.66%;}
+.col-t-12 {width: 100%;}
+        .title {
+            display: grid;
+         }
+    .menu{display: none;}
+    .description,.n{display: block;}
+    
+   .f{
+        display: block;
+        font-size: 1em;
+    }
+nav{margin-top: 2%;
+    margin-bottom: 4%;
+    display: block;
+    border-style: inset;
+    width: 100%;
+    top: 0.5%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: .7%;
+    color:white;
+    font-size: .9em;}
+nav li {background-color: aqua;
+        text-align: justify;
+        width: 16.66%;
+        display: flex;
+        float: left;
+        }
+nav a {font-family: fantasy;
+    color: white;
+    text-decoration: none;}
+nav a:hover {color: white;}
+    }
+
+@media only screen and (min-width: 1024px) {
+[class*="col-"] {
+     padding: 1%;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+    
+nav {display: block;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: dodgerblue;
+    font-size: 1.2em;}
+.description,.f,.n{display: block;}
+    .menu{display: none;}
+    
+    
+}
+
+    
+    
+</style>
